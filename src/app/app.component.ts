@@ -9,7 +9,7 @@ declare const fabric: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'app works!';
+  title = 'Hello Angular Fabric!';
 
   private canvas;
 

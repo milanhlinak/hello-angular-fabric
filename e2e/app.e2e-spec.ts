@@ -1,14 +1,14 @@
-import { AngularFabricPage } from './app.po';
+import { HelloAngularFabricPage } from './app.po';
 
-describe('angular-fabric App', () => {
-  let page: AngularFabricPage;
+describe('hello-angular-fabric App', () => {
+  let page: HelloAngularFabricPage;
 
   beforeEach(() => {
-    page = new AngularFabricPage();
+    page = new HelloAngularFabricPage();
   });
 
-  it('should display message saying app works', () => {
+  it(`should display message saying 'Hello Angular Fabric!'`, () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Hello Angular Fabric!');
   });
 });
